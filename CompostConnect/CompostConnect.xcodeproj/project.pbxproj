@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		403FAEC91C50EE570077D488 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 403FAEC81C50EE570077D488 /* main.m */; };
+		403FAECC1C50EE570077D488 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 403FAECB1C50EE570077D488 /* AppDelegate.m */; };
+		403FAED21C50EE570077D488 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403FAED01C50EE570077D488 /* Main.storyboard */; };
+		403FAED41C50EE570077D488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403FAED31C50EE570077D488 /* Assets.xcassets */; };
+		403FAED71C50EE570077D488 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403FAED51C50EE570077D488 /* LaunchScreen.storyboard */; };
+		403FAEE41C50F7BD0077D488 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 403FAEE31C50F7BD0077D488 /* LoginViewController.m */; };
+		403FAEEA1C50F7EE0077D488 /* PortsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 403FAEE91C50F7EE0077D488 /* PortsListViewController.m */; };
+		403FAEED1C50F8050077D488 /* UserRegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 403FAEEC1C50F8050077D488 /* UserRegViewController.m */; };
+		403FAEF11C50FFE30077D488 /* CompostPortsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 403FAEF01C50FFE30077D488 /* CompostPortsTableViewCell.m */; };
+		403FAEF71C5107B00077D488 /* RegSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 403FAEF61C5107B00077D488 /* RegSourceViewController.m */; };
+		403FAEFA1C5107C40077D488 /* RegCompostPortsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 403FAEF91C5107C40077D488 /* RegCompostPortsViewController.m */; };
+		403FAEFD1C510FBA0077D488 /* NearByPortsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 403FAEFC1C510FBA0077D488 /* NearByPortsViewController.m */; };
+		403FAEFF1C51104D0077D488 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403FAEFE1C51104D0077D488 /* MapKit.framework */; };
+		403FAF011C51105B0077D488 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403FAF001C51105B0077D488 /* CoreLocation.framework */; };
+		403FAF031C51106B0077D488 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403FAF021C51106B0077D488 /* QuartzCore.framework */; };
+		403FAF051C5110760077D488 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403FAF041C5110760077D488 /* CoreImage.framework */; };
+		403FAF0B1C5111670077D488 /* ZSAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 403FAF081C5111670077D488 /* ZSAnnotation.m */; };
+		403FAF0C1C5111670077D488 /* ZSPinAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 403FAF0A1C5111670077D488 /* ZSPinAnnotation.m */; };
+		403FAF0E1C51146B0077D488 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403FAF0D1C51146B0077D488 /* CoreGraphics.framework */; };
+		403FAF101C5114720077D488 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403FAF0F1C5114720077D488 /* Foundation.framework */; };
+		403FAF121C5117D10077D488 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403FAF111C5117D00077D488 /* UIKit.framework */; };
+		403FAF161C511B3C0077D488 /* RestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 403FAF151C511B3C0077D488 /* RestService.m */; };
+		403FAF181C512B890077D488 /* CC_Logo.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 403FAF171C512B890077D488 /* CC_Logo.PNG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		403FAEC41C50EE570077D488 /* CompostConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompostConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		403FAEC81C50EE570077D488 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		403FAECA1C50EE570077D488 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		403FAECB1C50EE570077D488 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		403FAED11C50EE570077D488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		403FAED31C50EE570077D488 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		403FAED61C50EE570077D488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		403FAED81C50EE570077D488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		403FAEE21C50F7BD0077D488 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		403FAEE31C50F7BD0077D488 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		403FAEE81C50F7EE0077D488 /* PortsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortsListViewController.h; sourceTree = "<group>"; };
+		403FAEE91C50F7EE0077D488 /* PortsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortsListViewController.m; sourceTree = "<group>"; };
+		403FAEEB1C50F8050077D488 /* UserRegViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserRegViewController.h; sourceTree = "<group>"; };
+		403FAEEC1C50F8050077D488 /* UserRegViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserRegViewController.m; sourceTree = "<group>"; };
+		403FAEEF1C50FFE30077D488 /* CompostPortsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompostPortsTableViewCell.h; sourceTree = "<group>"; };
+		403FAEF01C50FFE30077D488 /* CompostPortsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompostPortsTableViewCell.m; sourceTree = "<group>"; };
+		403FAEF51C5107B00077D488 /* RegSourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegSourceViewController.h; sourceTree = "<group>"; };
+		403FAEF61C5107B00077D488 /* RegSourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegSourceViewController.m; sourceTree = "<group>"; };
+		403FAEF81C5107C40077D488 /* RegCompostPortsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegCompostPortsViewController.h; sourceTree = "<group>"; };
+		403FAEF91C5107C40077D488 /* RegCompostPortsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegCompostPortsViewController.m; sourceTree = "<group>"; };
+		403FAEFB1C510FBA0077D488 /* NearByPortsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearByPortsViewController.h; sourceTree = "<group>"; };
+		403FAEFC1C510FBA0077D488 /* NearByPortsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearByPortsViewController.m; sourceTree = "<group>"; };
+		403FAEFE1C51104D0077D488 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		403FAF001C51105B0077D488 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		403FAF021C51106B0077D488 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		403FAF041C5110760077D488 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		403FAF071C5111670077D488 /* ZSAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSAnnotation.h; sourceTree = "<group>"; };
+		403FAF081C5111670077D488 /* ZSAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSAnnotation.m; sourceTree = "<group>"; };
+		403FAF091C5111670077D488 /* ZSPinAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSPinAnnotation.h; sourceTree = "<group>"; };
+		403FAF0A1C5111670077D488 /* ZSPinAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSPinAnnotation.m; sourceTree = "<group>"; };
+		403FAF0D1C51146B0077D488 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		403FAF0F1C5114720077D488 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		403FAF111C5117D00077D488 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		403FAF141C511B3C0077D488 /* RestService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestService.h; sourceTree = "<group>"; };
+		403FAF151C511B3C0077D488 /* RestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestService.m; sourceTree = "<group>"; };
+		403FAF171C512B890077D488 /* CC_Logo.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CC_Logo.PNG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		403FAEC11C50EE570077D488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403FAF121C5117D10077D488 /* UIKit.framework in Frameworks */,
+				403FAF101C5114720077D488 /* Foundation.framework in Frameworks */,
+				403FAF0E1C51146B0077D488 /* CoreGraphics.framework in Frameworks */,
+				403FAF051C5110760077D488 /* CoreImage.framework in Frameworks */,
+				403FAF031C51106B0077D488 /* QuartzCore.framework in Frameworks */,
+				403FAF011C51105B0077D488 /* CoreLocation.framework in Frameworks */,
+				403FAEFF1C51104D0077D488 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		403FAEBB1C50EE570077D488 = {
+			isa = PBXGroup;
+			children = (
+				403FAF061C51107D0077D488 /* framworks */,
+				403FAEC61C50EE570077D488 /* CompostConnect */,
+				403FAEC51C50EE570077D488 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		403FAEC51C50EE570077D488 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				403FAEC41C50EE570077D488 /* CompostConnect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		403FAEC61C50EE570077D488 /* CompostConnect */ = {
+			isa = PBXGroup;
+			children = (
+				403FAECA1C50EE570077D488 /* AppDelegate.h */,
+				403FAECB1C50EE570077D488 /* AppDelegate.m */,
+				403FAED01C50EE570077D488 /* Main.storyboard */,
+				403FAED31C50EE570077D488 /* Assets.xcassets */,
+				403FAED51C50EE570077D488 /* LaunchScreen.storyboard */,
+				403FAED81C50EE570077D488 /* Info.plist */,
+				403FAEC71C50EE570077D488 /* Supporting Files */,
+				403FAEEE1C50F8140077D488 /* Views */,
+			);
+			path = CompostConnect;
+			sourceTree = "<group>";
+		};
+		403FAEC71C50EE570077D488 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				403FAF171C512B890077D488 /* CC_Logo.PNG */,
+				403FAF141C511B3C0077D488 /* RestService.h */,
+				403FAF151C511B3C0077D488 /* RestService.m */,
+				403FAF071C5111670077D488 /* ZSAnnotation.h */,
+				403FAF081C5111670077D488 /* ZSAnnotation.m */,
+				403FAF091C5111670077D488 /* ZSPinAnnotation.h */,
+				403FAF0A1C5111670077D488 /* ZSPinAnnotation.m */,
+				403FAEC81C50EE570077D488 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		403FAEEE1C50F8140077D488 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				403FAEE21C50F7BD0077D488 /* LoginViewController.h */,
+				403FAEE31C50F7BD0077D488 /* LoginViewController.m */,
+				403FAEE81C50F7EE0077D488 /* PortsListViewController.h */,
+				403FAEE91C50F7EE0077D488 /* PortsListViewController.m */,
+				403FAEEB1C50F8050077D488 /* UserRegViewController.h */,
+				403FAEEC1C50F8050077D488 /* UserRegViewController.m */,
+				403FAEEF1C50FFE30077D488 /* CompostPortsTableViewCell.h */,
+				403FAEF01C50FFE30077D488 /* CompostPortsTableViewCell.m */,
+				403FAEF51C5107B00077D488 /* RegSourceViewController.h */,
+				403FAEF61C5107B00077D488 /* RegSourceViewController.m */,
+				403FAEF81C5107C40077D488 /* RegCompostPortsViewController.h */,
+				403FAEF91C5107C40077D488 /* RegCompostPortsViewController.m */,
+				403FAEFB1C510FBA0077D488 /* NearByPortsViewController.h */,
+				403FAEFC1C510FBA0077D488 /* NearByPortsViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		403FAF061C51107D0077D488 /* framworks */ = {
+			isa = PBXGroup;
+			children = (
+				403FAF111C5117D00077D488 /* UIKit.framework */,
+				403FAF0F1C5114720077D488 /* Foundation.framework */,
+				403FAF0D1C51146B0077D488 /* CoreGraphics.framework */,
+				403FAF041C5110760077D488 /* CoreImage.framework */,
+				403FAF021C51106B0077D488 /* QuartzCore.framework */,
+				403FAF001C51105B0077D488 /* CoreLocation.framework */,
+				403FAEFE1C51104D0077D488 /* MapKit.framework */,
+			);
+			name = framworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		403FAEC31C50EE570077D488 /* CompostConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403FAEDB1C50EE570077D488 /* Build configuration list for PBXNativeTarget "CompostConnect" */;
+			buildPhases = (
+				403FAEC01C50EE570077D488 /* Sources */,
+				403FAEC11C50EE570077D488 /* Frameworks */,
+				403FAEC21C50EE570077D488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CompostConnect;
+			productName = CompostConnect;
+			productReference = 403FAEC41C50EE570077D488 /* CompostConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		403FAEBC1C50EE570077D488 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Honeywell International Inc";
+				TargetAttributes = {
+					403FAEC31C50EE570077D488 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 403FAEBF1C50EE570077D488 /* Build configuration list for PBXProject "CompostConnect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 403FAEBB1C50EE570077D488;
+			productRefGroup = 403FAEC51C50EE570077D488 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				403FAEC31C50EE570077D488 /* CompostConnect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		403FAEC21C50EE570077D488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403FAF181C512B890077D488 /* CC_Logo.PNG in Resources */,
+				403FAED71C50EE570077D488 /* LaunchScreen.storyboard in Resources */,
+				403FAED41C50EE570077D488 /* Assets.xcassets in Resources */,
+				403FAED21C50EE570077D488 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		403FAEC01C50EE570077D488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403FAECC1C50EE570077D488 /* AppDelegate.m in Sources */,
+				403FAEEA1C50F7EE0077D488 /* PortsListViewController.m in Sources */,
+				403FAEED1C50F8050077D488 /* UserRegViewController.m in Sources */,
+				403FAEC91C50EE570077D488 /* main.m in Sources */,
+				403FAEFD1C510FBA0077D488 /* NearByPortsViewController.m in Sources */,
+				403FAEFA1C5107C40077D488 /* RegCompostPortsViewController.m in Sources */,
+				403FAF0C1C5111670077D488 /* ZSPinAnnotation.m in Sources */,
+				403FAEF71C5107B00077D488 /* RegSourceViewController.m in Sources */,
+				403FAEF11C50FFE30077D488 /* CompostPortsTableViewCell.m in Sources */,
+				403FAEE41C50F7BD0077D488 /* LoginViewController.m in Sources */,
+				403FAF0B1C5111670077D488 /* ZSAnnotation.m in Sources */,
+				403FAF161C511B3C0077D488 /* RestService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		403FAED01C50EE570077D488 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				403FAED11C50EE570077D488 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		403FAED51C50EE570077D488 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				403FAED61C50EE570077D488 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		403FAED91C50EE570077D488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		403FAEDA1C50EE570077D488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		403FAEDC1C50EE570077D488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CompostConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.honeywell.CompostConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		403FAEDD1C50EE570077D488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CompostConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.honeywell.CompostConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		403FAEBF1C50EE570077D488 /* Build configuration list for PBXProject "CompostConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403FAED91C50EE570077D488 /* Debug */,
+				403FAEDA1C50EE570077D488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403FAEDB1C50EE570077D488 /* Build configuration list for PBXNativeTarget "CompostConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403FAEDC1C50EE570077D488 /* Debug */,
+				403FAEDD1C50EE570077D488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 403FAEBC1C50EE570077D488 /* Project object */;
+}
